@@ -4,7 +4,7 @@ Ejercicios de Fundamentos de Programación en C# · ITLA
 
 | # | Tema | Estado |
 |----|------|--------|
-| 01 | Hola Mundo | hecho |
+| 01 | Hola Mundo | pendiente |
 | 02 | Variables y operadores | pendiente |
 | 03 | Programas secuenciales | pendiente |
 | 04 | Cálculos y formato | pendiente |
