@@ -2,6 +2,50 @@
 List<double> precios = new List<double>();
 List<int> cantidades = new List<int>();
 
+int opcion;
+do
+{
+    Console.WriteLine("\n=== La Repostería de Hill ===");
+    Console.WriteLine("1. Agregar producto");
+    Console.WriteLine("2. Ver inventario");
+    Console.WriteLine("3. Salir");
+    Console.WriteLine("Elige una opción:");
+    opcion = Convert.ToInt32(Console.ReadLine());
+
+    switch (opcion)
+    {
+        case 1:
+            Console.WriteLine("Escribe el nombre del producto:");
+            string nom = Console.ReadLine();
+            Console.WriteLine("Escribe el precio:");
+            double precio = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Escribe la cantidad:");
+            int cant = Convert.ToInt32(Console.ReadLine());
+            AgregarProducto(nom, precio, cant);
+            break;
+        case 2:
+            if (nombres.Count == 0)
+            {
+                Console.WriteLine("No hay productos en el inventario.");
+            }
+            else
+            {
+                Console.WriteLine("\n--- Inventario Actual ---");
+                for (int i = 0; i < nombres.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {nombres[i]} - Precio: RD${precios[i]:F2} | Stock: {cantidades[i]} unidades");
+                }
+            }
+            break;
+        case 3:
+            Console.WriteLine("Saliendo...");
+            break;
+        default:
+            Console.WriteLine("Opción inválida");
+            break;
+    }
+} while (opcion != 3);
+
 void AgregarProducto(string nombre, double precio, int cantidad)
 {
     nombres.Add(nombre);
@@ -9,12 +53,3 @@ void AgregarProducto(string nombre, double precio, int cantidad)
     cantidades.Add(cantidad);
     Console.WriteLine($"Producto '{nombre}' agregado.");
 }
-
-Console.WriteLine("=== La Repostería de Hill ===");
-Console.WriteLine("Escribe el nombre del producto:");
-string nom = Console.ReadLine();
-Console.WriteLine("Escribe el precio:");
-double precio = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Escribe la cantidad:");
-int cant = Convert.ToInt32(Console.ReadLine());
-AgregarProducto(nom, precio, cant);
