@@ -4,17 +4,17 @@ Ejercicios de Fundamentos de Programación en C# · ITLA
 
 | # | Tema | Estado |
 |----|------|--------|
-| 01 | Hola Mundo | pendiente |
-| 02 | Variables y operadores | pendiente |
-| 03 | Programas secuenciales | pendiente |
-| 04 | Cálculos y formato | pendiente |
-| 05 | Repaso · Primer parcial | pendiente |
-| 06 | Decisiones | pendiente |
-| 07 | Ciclos | pendiente |
-| 08 | Métodos | pendiente |
-| 09 | Modularidad | pendiente |
-| 10 | Repaso · Segundo parcial | pendiente |
-| 11 | Arreglos | pendiente |
-| 12 | Listas | pendiente |
-| 13 | Ejercicios integradores | pendiente |
-| 14 | Proyecto final | pendiente |
+| 01 | Hola Mundo | hecho |
+| 02 | Variables y operadores | hecho |
+| 03 | Programas secuenciales | hecho |
+| 04 | Cálculos y formato | hecho |
+| 05 | Repaso · Primer parcial | hecho |
+| 06 | Decisiones | hecho |
+| 07 | Ciclos | hecho |
+| 08 | Métodos | hecho |
+| 09 | Modularidad | hecho |
+| 10 | Repaso · Segundo parcial | hecho |
+| 11 | Arreglos | hecho |
+| 12 | Listas | hecho |
+| 13 | Ejercicios integradores | hecho |
+| 14 | Proyecto final | hecho |
